@@ -146,10 +146,10 @@ nano ~/enshroudedserver/enshrouded_server.json
 A service file helps ensure that your server restarts if it crashes and also means it will automatically start when your server powers on.
 
 ```bash
-    sudo nano /etc/systemd/system/enshrouded.service
+sudo nano /etc/systemd/system/enshrouded.service
 ```
 
-    Add the following configuration:
+Add the following configuration:
 
 ```ini
 [Unit]
